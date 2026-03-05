@@ -1,0 +1,107 @@
+/* Global styles for "The Invisible Partner" Slidev presentation */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --bg: #080b0f;
+  --surface: #0d1117;
+  --surface-2: #121920;
+  --border: #1c2535;
+  --border-subtle: #151d28;
+  --text-primary: #dce4ed;
+  --text-secondary: #9baebf;
+  --text-muted: #5a6a7a;
+  --text-faint: #3a4a5a;
+  --text-faintest: #283040;
+  --blue: #1752e8;
+  --blue-light: #4a82f0;
+  --blue-lighter: #7aaaf5;
+  --green: #10d97a;
+  --green-surface: #041f10;
+  --green-border: #0e4a28;
+  --amber: #f59e0b;
+  --red: #f73356;
+  --red-surface: #1f0408;
+  --red-border: #4a0e18;
+}
+
+/* Display font utility */
+.font-display {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+/* Italic override — use bold emphasis instead */
+em {
+  font-style: normal !important;
+  font-weight: 700;
+  color: inherit;
+}
+
+/* Reset Slidev defaults for dark theme */
+.slidev-layout {
+  background: var(--bg) !important;
+  color: var(--text-primary) !important;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Ensure full-height slides */
+.slidev-layout.default,
+.slidev-layout.center,
+.slidev-layout.cover {
+  background: var(--bg) !important;
+  padding: 0 !important;
+}
+
+/* Remove default prose styles that fight with custom layouts */
+.slidev-layout p {
+  margin: 0;
+}
+
+/* Speaker notes pane styling */
+.slidev-notes {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #9baebf;
+}
+
+/* Slide number */
+.slidev-layout .slidev-slide-number {
+  color: var(--text-faint);
+  font-size: 0.65rem;
+}
+
+/* Smooth transitions */
+.slidev-vclick-target {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+/* Global source superscript */
+.source {
+  font-size: 0.6rem;
+  color: var(--text-faint);
+  vertical-align: super;
+  margin-left: 2px;
+}
+
+/* Global footnote */
+.footnote {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.58rem;
+  color: var(--text-faintest);
+  letter-spacing: 0.02em;
+}
+
+/* Global slide section label */
+.section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--blue-light);
+}
