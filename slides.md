@@ -133,19 +133,19 @@ transition: fade
   <h2 class="s3-title">The Global AI Race</h2>
   <div class="s3-blocks">
     <div class="s3-block">
-      <div class="s3-flag">🇺🇸</div>
+      <div class="s3-flag"><span class="fi fi-us"></span></div>
       <div class="s3-amount s3-lead">$109B</div>
       <div class="s3-desc">private AI investment</div>
     </div>
     <div class="s3-divider"></div>
     <div class="s3-block s3-block-center">
-      <div class="s3-flag">🇪🇺</div>
+      <div class="s3-flag"><span class="fi fi-eu"></span></div>
       <div class="s3-amount s3-low">$8B</div>
       <div class="s3-desc s3-positive">+30% AI talent per capita</div>
     </div>
     <div class="s3-divider"></div>
     <div class="s3-block">
-      <div class="s3-flag">🇨🇳</div>
+      <div class="s3-flag"><span class="fi fi-cn"></span></div>
       <div class="s3-amount s3-lead">$9.3B</div>
       <div class="s3-desc">private AI investment</div>
     </div>
@@ -198,35 +198,35 @@ transition: fade
   <h2 class="s4-title">Small Business AI Adoption — 2025</h2>
   <div class="s4-rows">
     <div class="s4-row">
-      <div class="s4-label">🇺🇸 <span>US</span></div>
+      <div class="s4-label"><span class="fi fi-us"></span> <span>US</span></div>
       <div class="s4-track">
         <div class="s4-fill s4-us"></div>
       </div>
       <div class="s4-num">58%</div>
     </div>
     <div class="s4-row">
-      <div class="s4-label">🇩🇰 <span>Denmark</span></div>
+      <div class="s4-label"><span class="fi fi-dk"></span> <span>Denmark</span></div>
       <div class="s4-track">
         <div class="s4-fill s4-dk"></div>
       </div>
       <div class="s4-num">42%</div>
     </div>
     <div class="s4-row">
-      <div class="s4-label">🇬🇧 <span>UK</span></div>
+      <div class="s4-label"><span class="fi fi-gb"></span> <span>UK</span></div>
       <div class="s4-track">
         <div class="s4-fill s4-uk"></div>
       </div>
       <div class="s4-num">35%</div>
     </div>
     <div class="s4-row">
-      <div class="s4-label">🇫🇷 <span>France</span></div>
+      <div class="s4-label"><span class="fi fi-fr"></span> <span>France</span></div>
       <div class="s4-track">
         <div class="s4-fill s4-fr"></div>
       </div>
       <div class="s4-num">26%</div>
     </div>
     <div class="s4-row">
-      <div class="s4-label">🇪🇺 <span>EU</span></div>
+      <div class="s4-label"><span class="fi fi-eu"></span> <span>EU</span></div>
       <div class="s4-track">
         <div class="s4-fill s4-eu"></div>
       </div>
@@ -280,7 +280,7 @@ transition: fade
   <h2 class="s5-title">What AI-assisted work delivers — documented</h2>
   <div class="s5-panels">
     <div class="s5-panel">
-      <div class="s5-flag">🇬🇧 UK Gov</div>
+      <div class="s5-flag"><span class="fi fi-gb"></span> UK Gov</div>
       <div class="s5-hero">8,600<span class="s5-unit"> hrs/day</span></div>
       <div class="s5-sub">of admin time freed</div>
       <div class="s5-calc">26 min saved × 20,000 civil servants</div>

@@ -1,5 +1,7 @@
 /* Global styles for "The Invisible Partner" Slidev presentation */
 
+@import 'flag-icons/css/flag-icons.min.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=JetBrains+Mono:wght@400;600&display=swap');
 
 :root {
@@ -55,6 +57,11 @@ em {
 /* Remove default prose styles that fight with custom layouts */
 .slidev-layout p {
   margin: 0;
+}
+
+/* flag-icons: ensure vertical alignment with surrounding text */
+.fi {
+  vertical-align: middle;
 }
 
 /* Speaker notes pane styling */
