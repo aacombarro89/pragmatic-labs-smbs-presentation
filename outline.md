@@ -25,13 +25,15 @@ Most businesses — in France, across Europe, and likely in this room — are aw
 
 ### Pragmatic Labs AI — what it is
 
-**Three pillars — this is how we work with every client:**
+**Four pillars — this is how we work with every client:**
 
-1. **Human consultancy first.** We don't throw you a sign-up page or a generic tutorial. We sit down with you — human to human — to understand your business, your workflows, and where AI can provide a real improvement. That conversation comes before any tool gets built.
+1. **Platform already built.** The infrastructure exists — AI routing, knowledge base integration, form engine, agent orchestration. What changes per client is the *configuration*: your tools, your knowledge, your workflows. That's what keeps it fast and affordable.
 
-2. **Specialized tools, best-fit models.** We build purpose-built AI tools for each use case — not one chatbot for everything. Each tool uses the AI model that's best for that specific task (Claude for writing, GPT-4o for analysis, etc.), producing stable, high-quality results.
+2. **Human consultancy first.** We don't throw you a sign-up page or a generic tutorial. We sit down with you — human to human — to understand your business, your workflows, and where AI can provide a real improvement. That conversation comes before any tool gets configured.
 
-3. **Beyond chat — form-based interfaces.** Your team doesn't face a blank chat box. They get structured forms that enforce well-formatted, correct input data. The AI gets clean input every time, so the output is consistent every time.
+3. **Specialized tools, best-fit models.** We configure purpose-built AI tools for each use case — not one chatbot for everything. Each tool uses the AI model that's best for that specific task (Claude for writing, GPT-5 for analysis, etc.), producing stable, high-quality results.
+
+4. **Beyond chat — form-based interfaces.** Your team doesn't face a blank chat box. They get structured forms that enforce well-formatted, correct input data. The AI gets clean input every time, so the output is consistent every time.
 
 **How we deliver (architecture):**
 - Each **organization** is a fully isolated tenant with: a dedicated Knowledge Base (fed by document storage), a library of use-case-specific AI tools organized into categories, its own AI agents and LLM provider configuration, and role-based team access control
@@ -80,7 +82,7 @@ Every stat is annotated with `[Source ID]` — see the **Verified Sources** tabl
 
 ## Slide 1 — Title
 
-**Visual:** Dark background, bold title, subtle abstract AI node graphic (connections/network). Clean and modern. **No horizontal divider lines between content blocks** — use vertical spacing only. Divider rules are a common AI-generated slide tell.
+**Visual:** Dark background, bold title, subtle abstract AI node graphic (connections/network). Clean and modern. **No horizontal divider lines between content blocks** — use vertical spacing only. Divider rules are a common AI-generated slide tell. **QR code** bottom-right corner linking to `https://aacombarro89.github.io/pragmatic-labs-smbs-presentation/1` with "Follow along" label.
 
 **On-screen text:**
 > **The Invisible Partner**
@@ -183,21 +185,21 @@ Every stat is annotated with `[Source ID]` — see the **Verified Sources** tabl
 > **26 min** × 20,000 people = **8,600 hrs/day**
 > _Admin time reclaimed. Every day._
 >
-> **🌍 Salesforce — 3,350 SMBs [1]**
-> **86%** of AI-integrated SMBs report improved margins
-> _Not just efficiency. Better business._
+> **🌍 OECD — 7 countries [3]**
+> **46%** of SMEs using AI report better employee performance
+> _Not cost cuts. Better work._
 >
 > _* 2024–2025 data_
 
 **Speaker notes (~2:00):**
 - "The UK Government ran a Copilot pilot with 20,000 civil servants — drafting, summarising, reporting. Average saving: 26 minutes per person per day."
 - "Do the maths. 26 minutes times 20,000 people. That's 8,600 hours freed up. Every. Single. Day." [pause] "That's like having 1,000 extra full-time staff just for admin. In a government department." [beat] "If they can do it, what's your excuse?" [smile]
-- "Salesforce surveyed 3,350 SMB leaders globally. 86% of those with AI integration report improved margins. Not just time saved — the business itself performs better."
+- "OECD surveyed 5,000 SMEs across seven countries. 46% of those using AI say their employees perform better. Not headcount cuts — better work from the same people."
 - **Transition:** "The data is real. So what's the catch?"
 
 **Timing:** ~2:00
 
-**Data:** `[2]` UK Gov/DSIT pub. Jun 2025 — **B** (self-reported); `[1]` Salesforce SMB Trends 2025 — **A**
+**Data:** `[2]` UK Gov/DSIT pub. Jun 2025 — **B** (self-reported); `[3]` OECD Dec 2025 — **A**
 
 ---
 
@@ -214,8 +216,7 @@ Every stat is annotated with `[Source ID]` — see the **Verified Sources** tabl
 - "Remember that 26% from the beginning? France Num: 26% of small businesses say they use AI."
 - "INSEE asked a harder question. Same country. Not 'have you opened ChatGPT' — has AI been *formally integrated* into how the business runs? Repeatable workflows. Connected to business data. Built in."
 - "10%. One in ten." [pause. let it land.]
-- "That's the catch. 26% say they use AI. 10% have actually integrated it. That 16-point gap is people copying and pasting into ChatGPT when they remember to."
-- "Quick show of hands: who here has typed something into ChatGPT, thought 'that's almost right,' and then spent 20 minutes editing it?" [pause] "Yeah. That's what 16 points looks like."
+- "That's the catch. 26% say they use AI. 10% have actually integrated it. That 16-point gap is people copying and pasting into ChatGPT when they remember to — and calling it a strategy."
 - **Transition:** "So what does that gap actually look like day to day?"
 
 **Timing:** ~1:30
@@ -245,8 +246,7 @@ Every stat is annotated with `[Source ID]` — see the **Verified Sources** tabl
 - "Knowledge lives in whoever remembers it. That's a single point of failure. The integrated business has that knowledge in the tools — new hire? Up and running in an afternoon."
 - "The not-integrated business does have great conversations with ChatGPT about their strategy though. The strategy never gets executed, but the conversation — genuinely good." [beat]
 - "Salesforce surveyed 3,350 SMB leaders globally. 91% of those with AI integration say it boosts their revenue. Not headcount cuts — revenue up. Survey data, grain of salt. But 91% is a very loud grain of salt." [beat]
-- "And the compounding effect matters. In France, formal AI integration is at 10% — well below the EU average. Every month that passes, the businesses that have built systems are further ahead. The gap doesn't stay the same size. It grows."
-- **Transition:** "So what's the right way to build this system? This is where I want to push back on something everyone takes for granted."
+- **Transition:** "So why aren't more businesses on the right side of that table?"
 
 **Timing:** ~2:00
 
@@ -282,12 +282,11 @@ Every stat is annotated with `[Source ID]` — see the **Verified Sources** tabl
 > _(None — image only)_
 
 **Speaker notes (~3:00):**
-- "This is Pragmatic Labs AI. And I want to be clear about what makes us different — because it's not the technology. It's how we work."
-- **The platform exists:** "First — we've already built the platform. This isn't custom development that starts from zero for every client. The infrastructure is there: the AI routing, the knowledge base integration, the form engine, the agent orchestration. All of it. What changes per client is the *configuration* — your tools, your knowledge, your workflows. That's what keeps it fast and affordable."
-- **Pillar 1 — Human first:** "But we don't just hand you a login. We start with a conversation — human to human. We learn your business. Your workflows. Your pain points. Where does AI actually help *you*? That conversation happens before a single tool gets configured."
-- **Pillar 2 — Specialized tools, right models:** "Then we configure your tools on the platform. Not one chatbot for everything — specialized tools, one per use case. Customer support gets one tool. Proposals get another. Each one uses the AI model that's best for that specific task — Claude for writing, GPT-4o for analysis, whatever produces stable, high-quality results. Your team doesn't need to know which model is running. They don't need to know if it's Claude, GPT-4, or a very fast intern." [beat] "Unlike the intern, the tool doesn't call in sick."
-- **Pillar 3 — Beyond chat:** "And here's where we really break from the ChatGPT approach. Your team doesn't face a blank chat box. They get a form. Structured input fields — client name, product type, budget, tone. The form enforces the right data upfront. Clean input in, consistent output out. Every time. Same form, same quality, any team member."
-- **Admin setup:** "I configure the tool once — connect it to your knowledge base, set the template, define the output format. Then the whole team uses it. Forever. I can go on holiday. The tool keeps working."
+- **Intro:** "This is Pragmatic Labs AI. Four things make it work."
+- **Pillar 1 — Platform:** "The platform already exists. AI routing, knowledge base integration, form engine, agent orchestration — all of it. We don't start from zero for each client. What changes is the configuration: your tools, your knowledge, your workflows. That's what keeps it fast and affordable."
+- **Pillar 2 — Human first:** "We start with a conversation — human to human. Your business, your workflows, your pain points. Where does AI actually help *you*? That happens before a single thing gets configured."
+- **Pillar 3 — Specialized tools:** "Then we configure specialized tools — one per use case. Customer support gets its own. Proposals get another. Each uses the model that's best for that task — Claude for writing, GPT-5 for analysis, whatever produces the best results. Your team doesn't need to know which model is running. They don't need to know if it's Claude, GPT-5, or a very fast intern." [beat] "Unlike the intern, it doesn't call in sick."
+- **Pillar 4 — Beyond chat:** "And your team never sees a blank text box. They get a form — structured fields: client name, product type, budget, tone. Clean input in, consistent output out. Every time. I configure it once, the whole team uses it forever. I can go on holiday. It keeps working."
 - **Transition:** "We've done this across industries. Let me give you three real examples."
 
 **Timing:** ~3:00
@@ -358,7 +357,7 @@ Every stat is annotated with `[Source ID]` — see the **Verified Sources** tabl
 > **Your business has the knowledge.**
 > **AI is the bridge.**
 >
-> _Stop winging it. Start building your invisible partner._
+> _Stop guessing. Start integrating._
 >
 > **Antonio Alejo Combarro** — Cofounder, Pragmatic Labs AI
 > pragmaticlabs.ai · tony@pragmaticlabs.ai · [QR → tony@pragmaticlabs.ai]
@@ -420,10 +419,10 @@ Issues to check when reviewing the generated deck:
 
 1. **Hook:** France is moving on AI — 26% of TPE/PME now use it, doubled in a year. Momentum is real. But there's a catch. (The catch is withheld here — revealed in Slide 6 for maximum impact.)
 2. **Situation:** Europe lags the US and China on AI investment and infrastructure, but holds a talent advantage. French and EU small businesses lag large enterprises by 3–6× on formal adoption. The opportunity is real and uncrowded — 9% in France means early movers have the field to themselves.
-3. **Problem:** Here's the catch. INSEE says only 10% of French businesses have formally integrated AI — below the EU average. That 16-point gap is the "winging it" problem: ChatGPT on a personal account, different prompts every time, no business context, knowledge that lives in one person's head. Objection handled here: EU AI Act is not a blocker for everyday SMB use cases.
+3. **Problem:** Here's the catch. INSEE says only 10% of French businesses have formally integrated AI — below the EU average. That 16-point gap is the "guessing" problem: ChatGPT on a personal account, different prompts every time, no business context, knowledge that lives in one person's head. Objection handled here: EU AI Act is not a blocker for everyday SMB use cases.
 4. **Implication:** The gap compounds. Businesses that build systems now get further ahead every quarter. 26 min/person/day reclaimed. Proposals in 20 min instead of 4 hours. The gap isn't staying the same size — it grows.
 5. **Need:** Post-chat AI is the answer — not a chatbot, but purpose-built tools connected to business knowledge. Pragmatic Labs AI: admins configure once, team fills forms, AI generates structured output. Live demo — travel planner — proves the differentiator: "ChatGPT can write. This *knows your business.*" Three workflows that pay back fast: support, proposals, operations.
-6. **Close:** Europe has the talent. Your business has the knowledge. AI is the bridge. Stop winging it.
+6. **Close:** Europe has the talent. Your business has the knowledge. AI is the bridge. Stop guessing. Start integrating.
 
 ---
 
@@ -450,6 +449,6 @@ Issues to check when reviewing the generated deck:
 | 2 (Hook) | 26% TPE/PME use AI, up from 13% in 2024 | [8] |
 | 3 (Global Race) | $109B vs $8B vs $9.3B; 40 vs 3 foundation models; 17× compute; +30% talent | [4], [6] |
 | 4 (FR/UK/EU gap) | FR 9% integrated; UK 10% customised; EU small 17% active | [5], [9], [11] |
-| 5 (Proof) | 26 min/day × 20,000 = 8,600 hrs/day; 86% of AI-integrated SMBs report improved margins | [2], [1] |
+| 5 (Proof) | 26 min/day × 20,000 = 8,600 hrs/day; 46% of SMEs using AI report better employee performance | [2], [3] |
 | 6 (Problem) | 26% use vs 10% integrate (France); EU AI Act framing (low-risk for SMB use cases) | [8], [9], [10] |
 | 7 (Implication) | Knowledge lock-in vs any team member delivers; 91% of AI-integrated SMBs report revenue boost | [1] |

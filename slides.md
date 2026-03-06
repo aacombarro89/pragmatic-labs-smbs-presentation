@@ -48,7 +48,7 @@ fonts:
   </div>
   <div class="title-content">
     <div class="s1-label">THE INVISIBLE PARTNER</div>
-    <h1 class="s1-h1">How <span class="s1-blue">AI</span> Is Becoming<br>Every Small Business's<br><span class="s1-blue">Best Hire</span></h1>
+    <h1 class="s1-h1">How <span class="s1-blue">AI</span> Is Becoming<br>Every Small Business's <span class="s1-blue">Best Hire</span></h1>
     <div class="s1-rule"></div>
     <div class="s1-bio">
       <span class="s1-name">Antonio Alejo Combarro</span>
@@ -59,6 +59,10 @@ fonts:
       <span class="s1-sep">·</span>
       <span class="s1-date">March 2026</span>
     </div>
+    <div class="s1-qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://aacombarro89.github.io/pragmatic-labs-smbs-presentation/1&color=dc-e4-ed&bgcolor=08-0b-0f" alt="QR: follow along" />
+      <span class="s1-qr-label">Follow along</span>
+    </div>
   </div>
 </div>
 
@@ -68,7 +72,7 @@ fonts:
 .ai-words-bg span { position: absolute; font-family: 'JetBrains Mono', 'DM Mono', monospace; font-weight: 600; color: #1752e8; opacity: 0.07; text-transform: lowercase; letter-spacing: 0.04em; user-select: none; white-space: nowrap; }
 .title-content { position: relative; z-index: 10; text-align: center; padding: 0 80px; }
 .s1-label { font-family: 'DM Sans', sans-serif; font-size: 0.95rem; letter-spacing: 0.38em; color: #4a82f0; font-weight: 700; margin-bottom: 32px; text-transform: uppercase; }
-.s1-h1 { font-family: 'Space Grotesk', sans-serif; font-size: 5.2rem; font-weight: 700; line-height: 1.08; color: #dce4ed; margin: 0 0 36px; letter-spacing: -0.02em; }
+.s1-h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.08; color: #dce4ed; margin: 0 0 36px; letter-spacing: -0.02em; }
 .s1-blue { color: #1752e8; }
 .s1-rule { width: 48px; height: 3px; background: #1752e8; margin: 0 auto 32px; border-radius: 2px; }
 .s1-bio { font-size: 0.95rem; color: #5a6a7a; display: flex; gap: 10px; align-items: center; justify-content: center; flex-wrap: wrap; }
@@ -76,6 +80,9 @@ fonts:
 .s1-sep { color: #1752e8; }
 .s1-role { color: #7a8ea0; }
 .s1-date { color: #3a4a5a; }
+.s1-qr { display: flex; flex-direction: column; align-items: center; gap: 6px; margin-top: 24px; }
+.s1-qr img { width: 90px; height: 90px; }
+.s1-qr-label { font-size: 0.55rem; color: #3a4a5a; letter-spacing: 0.08em; font-weight: 600; }
 </style>
 
 <!--
@@ -289,12 +296,12 @@ transition: fade
     </div>
     <div class="s5-vline"></div>
     <div class="s5-panel s5-panel-right">
-      <div class="s5-flag">🌍 Salesforce — 3,350 SMBs</div>
-      <div class="s5-hero">86<span class="s5-unit">%</span></div>
-      <div class="s5-sub">of AI-integrated SMBs report<br>improved margins</div>
-      <div class="s5-calc">3,350 SMB leaders across 4 regions</div>
-      <div class="s5-note">Not just efficiency. Better business.</div>
-      <div class="s5-src">[1] Salesforce SMB Trends, 2025</div>
+      <div class="s5-flag">🌍 OECD — 7 countries</div>
+      <div class="s5-hero">46<span class="s5-unit">%</span></div>
+      <div class="s5-sub">of SMEs using AI report better<br>employee performance</div>
+      <div class="s5-calc">5,000+ businesses across 7 countries</div>
+      <div class="s5-note">Not cost cuts. Better work.</div>
+      <div class="s5-src">[3] OECD, Nov 2025</div>
     </div>
   </div>
   <div class="footnote">* 2024–2025 data</div>
@@ -323,7 +330,7 @@ transition: fade
 
 "Do the maths. 26 minutes times 20,000 people. That's 8,600 hours freed up. Every. Single. Day." [pause] "That's like having 1,000 extra full-time staff just for admin. In a government department." [beat] "If they can do it, what's your excuse?" [smile]
 
-"Salesforce surveyed 3,350 SMB leaders globally. 86% of those with AI integration report improved margins. Not just time saved — the business itself performs better."
+"OECD surveyed 5,000 SMEs across seven countries. 46% of those using AI say their employees perform better. Not headcount cuts — better work from the same people."
 
 **Transition:** "The data is real. So what's the catch?"
 
@@ -373,9 +380,7 @@ transition: fade
 
 "10%. One in ten." [pause. let it land.]
 
-"That's the catch. 26% say they use AI. 10% have actually integrated it. That 16-point gap is people copying and pasting into ChatGPT when they remember to."
-
-"Quick show of hands: who here has typed something into ChatGPT, thought 'that's almost right,' and spent 20 minutes editing it?" [pause] "Yeah. That's what 16 points looks like."
+"That's the catch. 26% say they use AI. 10% have actually integrated it. That 16-point gap is people copying and pasting into ChatGPT when they remember to — and calling it a strategy."
 
 **Transition:** "So what does that gap actually look like day to day?"
 
@@ -454,9 +459,7 @@ Walk through each row: "One is using AI but not integrated — ChatGPT on their 
 
 "Salesforce surveyed 3,350 SMB leaders globally. 91% of those with AI integration say it boosts their revenue. Not headcount cuts — revenue up. Survey data, grain of salt. But 91% is a very loud grain of salt." [beat]
 
-"In France, formal AI integration is at 10% — well below the EU average. Every month that passes, the businesses that have built systems are further ahead. The gap doesn't stay the same size. It grows."
-
-**Transition:** "So what's the right way to build this system? This is where I want to push back on something everyone takes for granted."
+**Transition:** "So why aren't more businesses on the right side of that table?"
 
 **Timing: ~2:00**
 -->
@@ -510,17 +513,15 @@ transition: fade
 <!--
 **Speaker notes (~3:00)**
 
-"This is Pragmatic Labs AI. And I want to be clear about what makes us different — because it's not the technology. It's how we work."
+**Intro:** "This is Pragmatic Labs AI. Four things make it work."
 
-**The platform exists:** "First — we've already built the platform. This isn't custom development that starts from zero for every client. The infrastructure is there: the AI routing, the knowledge base integration, the form engine, the agent orchestration. All of it. What changes per client is the *configuration* — your tools, your knowledge, your workflows. That's what keeps it fast and affordable."
+**Pillar 1 — Platform:** "The platform already exists. AI routing, knowledge base integration, form engine, agent orchestration — all of it. We don't start from zero for each client. What changes is the configuration: your tools, your knowledge, your workflows. That's what keeps it fast and affordable."
 
-**Pillar 1 — Human first:** "But we don't just hand you a login. We start with a conversation — human to human. We learn your business. Your workflows. Your pain points. Where does AI actually help *you*? That conversation happens before a single tool gets configured."
+**Pillar 2 — Human first:** "We start with a conversation — human to human. Your business, your workflows, your pain points. Where does AI actually help *you*? That happens before a single thing gets configured."
 
-**Pillar 2 — Specialized tools, right models:** "Then we configure your tools on the platform. Not one chatbot for everything — specialized tools, one per use case. Customer support gets one tool. Proposals get another. Each one uses the AI model that's best for that specific task — Claude for writing, GPT-4o for analysis, whatever produces stable, high-quality results. Your team doesn't need to know which model is running. They don't need to know if it's Claude, GPT-4, or a very fast intern." [beat] "Unlike the intern, the tool doesn't call in sick."
+**Pillar 3 — Specialized tools:** "Then we configure specialized tools — one per use case. Customer support gets its own. Proposals get another. Each uses the model that's best for that task — Claude for writing, GPT-5 for analysis, whatever produces the best results. Your team doesn't need to know which model is running. They don't need to know if it's Claude, GPT-5, or a very fast intern." [beat] "Unlike the intern, it doesn't call in sick."
 
-**Pillar 3 — Beyond chat:** "And here's where we really break from the ChatGPT approach. Your team doesn't face a blank chat box. They get a form. Structured input fields — client name, product type, budget, tone. The form enforces the right data upfront. Clean input in, consistent output out. Every time. Same form, same quality, any team member."
-
-**Admin setup:** "I configure the tool once — connect it to your knowledge base, set the template, define the output format. Then the whole team uses it. Forever. I can go on holiday. The tool keeps working."
+**Pillar 4 — Beyond chat:** "And your team never sees a blank text box. They get a form — structured fields: client name, product type, budget, tone. Clean input in, consistent output out. Every time. I configure it once, the whole team uses it forever. I can go on holiday. It keeps working."
 
 **Transition:** "We've done this across industries. Let me give you three real examples."
 
@@ -559,11 +560,11 @@ transition: fade
 .slide-10 { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #080b0f; padding: 28px 60px; gap: 40px; }
 .s10-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; color: #dce4ed; letter-spacing: -0.01em; text-align: center; }
 .s10-tiles { display: flex; align-items: stretch; width: 100%; gap: 0; }
-.s10-tile { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 0 32px; }
+.s10-tile { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 0 16px; }
 .s10-vline { width: 1px; background: #1c2535; flex-shrink: 0; }
 .s10-icon { font-size: 3.5rem; }
 .s10-org { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #dce4ed; }
-.s10-result { font-size: 1.1rem; color: #9baebf; text-align: center; line-height: 1.5; }
+.s10-result { font-size: 0.88rem; color: #9baebf; text-align: center; line-height: 1.5; white-space: nowrap; }
 .s10-tagline { font-size: 1.2rem; color: #1752e8; font-weight: 700; }
 </style>
 
@@ -595,9 +596,6 @@ layout: center
     <span class="s11-sep">·</span>
     <span class="s11-tool">⚖️ Case Researcher</span>
   </div>
-  <div class="s11-screenshot">
-    <div class="s11-sc-note">🖼️ SCREENSHOT PLACEHOLDERS<br>Travel Planner form + output &nbsp;|&nbsp; Case Researcher form + output<br><span class="s11-warn">Replace before Friday — use as backup if wifi fails</span></div>
-  </div>
 </div>
 
 <style>
@@ -606,9 +604,6 @@ layout: center
 .s11-tools { display: flex; align-items: center; gap: 20px; }
 .s11-tool { font-family: 'Space Grotesk', sans-serif; font-size: 2.4rem; font-weight: 700; color: #dce4ed; }
 .s11-sep { font-size: 2rem; color: #3a4a5a; }
-.s11-screenshot { width: 85%; max-width: 700px; height: 150px; border: 1px dashed #1c2535; border-radius: 10px; background: #0d1117; display: flex; align-items: center; justify-content: center; }
-.s11-sc-note { font-size: 0.62rem; color: #3a4a5a; line-height: 1.9; }
-.s11-warn { color: #f59e0b; }
 </style>
 
 <!--
@@ -649,7 +644,7 @@ layout: center
     <div class="s12-line s12-accent">AI is the bridge.</div>
   </div>
   <div class="s12-sub">
-    Stop winging it. Start building your invisible partner.
+    Stop guessing. Start integrating.
   </div>
   <div class="s12-contact">
     <div class="s12-left">
@@ -666,7 +661,7 @@ layout: center
 <style>
 .slide-12 { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #080b0f; padding: 28px 80px; gap: 24px; text-align: center; }
 .s12-lines { display: flex; flex-direction: column; gap: 2px; }
-.s12-line { font-family: 'Space Grotesk', sans-serif; font-size: 3.4rem; font-weight: 700; color: #9baebf; line-height: 1.18; }
+.s12-line { font-family: 'Space Grotesk', sans-serif; font-size: 3.4rem; font-weight: 700; color: #9baebf; line-height: 1.18; white-space: nowrap; }
 .s12-white { color: #dce4ed; }
 .s12-accent { color: #1752e8; }
 .s12-sub { font-size: 1.2rem; color: #5a6a7a; font-weight: 600; }
